@@ -1,0 +1,62 @@
+# Site Info
+title: "DongHyun's Blog"
+tagline: "빽똥의 블로그"
+description: "프론트엔드를 꾸준히 공부하면서 적는 곳입니다."
+baseurl: ""
+url: http://dohy-9443.github.io
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: 동현 (Baek DongHyun)
+  description: Front-end
+  contact:
+    linkedin:  <hide>
+    github:    https://github.com/dohy-9443
+    # facebook: <hide>
+    twitter: <hide>
+    weibo: <hide>
+    email: mailto:zxbdhxz@naver.com
+    
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/blog/categories/#로그포스'
+  Categories:           
+    - '/blog/'
+    - { Javascript: "/blog/categories/#javascript" }
+    - { jQuery: "/blog/categories/#jquery" }
+    - { HTML/CSS: "/blog/categories/#htmlcss" }
+    - { React: "/blog/categories/#react" }
+    - { JSP: "/blog/categories/#jsp" }
+    - { 로그포스: "/blog/categories/#로그포스" }
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'http://dohy-9443.github.io/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'dong_hyun-github-io' # leave blank if you don't want disqus
+
