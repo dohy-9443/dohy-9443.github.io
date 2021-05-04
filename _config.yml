@@ -45,7 +45,7 @@ nav:
     - { HTML/CSS: "/blog/categories/#htmlcss" }
     - { React: "/blog/categories/#react" }
     - { JSP: "/blog/categories/#jsp" }
-    - { 로그포스: "/blog/categories/#로그포스" }
+    - { 일기장: "/blog/categories/#일기장" }
   About:          
     - '/about/'
   Github Project: 
