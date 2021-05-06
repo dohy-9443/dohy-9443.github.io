@@ -3,7 +3,7 @@ title: "DongHyun's Blog"
 tagline: "빽똥의 블로그"
 description: "프론트엔드를 꾸준히 공부하면서 적는 곳입니다."
 baseurl: ""
-url: http://dohy-9443.github.io
+url: 'http://dohy-9443.github.io'
 logo: '/public/logo.png'
 
 # Site configurations
@@ -37,7 +37,7 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/blog/categories/#일기장'
+    - '/blog/categories/'
   Categories:           
     - '/blog/'
     - { Javascript: "/blog/categories/#javascript" }
