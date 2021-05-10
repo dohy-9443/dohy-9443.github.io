@@ -37,7 +37,7 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/blog/categories/'
+    - '/blog/categories/#일기장'
   Categories:           
     - '/blog/'
     - { Javascript: "/blog/categories/#javascript" }
