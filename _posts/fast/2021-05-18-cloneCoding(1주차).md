@@ -1,3 +1,21 @@
+---
+layout: post
+title: 2021-05-18 cloneCoding(1주차)
+category: cloneCoding
+permalink: /log/:year/:month/:day/:title/
+tags: [클론코딩]
+comments: true
+
+
+
+
+
+---
+
+
+
+# 밑바닥부터 배포까지 클론코딩
+
 # 1주차(5/18)
 
 ## 함수
