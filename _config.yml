@@ -45,6 +45,7 @@ nav:
     - { HTML/CSS: "/blog/categories/#htmlcss" }
     - { React: "/blog/categories/#react" }
     - { JSP: "/blog/categories/#jsp" }
+    - { cloneCoding: "/blog/categories/#클론코딩" }
     - { 일기장: "/blog/categories/#일기장" }
   About:          
     - '/about/'
