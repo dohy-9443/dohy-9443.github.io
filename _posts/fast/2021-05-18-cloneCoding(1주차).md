@@ -228,3 +228,123 @@ ccc
 hello
 ```
 
+## 조건문
+
+특정 조건일 때 실행되는 부분을 작동해라 
+
+### if문
+
+```jsx
+if(특정 조건) {
+  특정조건에 해당하면 실행되는 문;
+}
+```
+
+간단 예제
+
+```jsx
+var a = 5;
+if(a < 10) {
+  console.log('10보다 작다.');
+}
+```
+
+실행 결과
+
+```jsx
+10보다 작다.
+```
+
+### == , === , ! == 차이
+
+```jsx
+var a = 5;
+if(a == '5') { // 숫자형 5와 문자형 5는 같다.
+  console.log('5와 \'5\'는 같습니다.');
+}
+if(a === '5') { // === 이거는 형태까지 같아야 된다.
+  console.log('5와 \'5\'는 같습니다.');
+} else {
+  console.log('숫자형5와 문자형5는 형태가 달라 다르다.');
+}
+if(a !== 5) { // !== 다른지 비교
+  console.log('a와 5는 다르다.');
+} else if (a !== 6) {
+  console.log('a와 6은 다르다.');
+}
+```
+
+실행 결과
+
+```jsx
+5와 '5'는 같습니다.
+숫자형5와 문자형5는 형태가 달라 다르다.
+a와 6은 다르다.
+```
+
+### if - esle if - else
+
+```jsx
+var a = 15;
+if(a < 10) {
+  console.log('a는 10보다 작다.');
+} else if (a < 20) {
+  console.log('a는 20보다 작다.');
+} else if (a < 30) {
+  console.log('a는 30보다 작다.');
+} else {
+  console.log('a는 30보다 크다.');
+}
+```
+
+실행 결과
+
+```jsx
+a는 20보다 작다.
+```
+
+### switch 문
+
+```jsx
+var color = 'red';
+switch(color) {
+  case 'orange':
+    console.log('orange 입니다.');
+    break;
+  case 'red':
+    console.log('red 입니다.');
+    break;
+  case 'yellow':
+    console.log('yellow 입니다.');
+    break;
+  default :
+    console.log('벗어나는 조건');
+}
+```
+
+실행 결과
+
+```jsx
+red 입니다.
+```
+
+### 함수에서의 조건문
+
+```jsx
+function myNum(num) {
+  if(num < 10) {
+    console.log(num + '은(는) 10보다 작습니다.');
+  } else {
+    console.log(num + '은(는) 10이상입니다.');
+  }
+}
+
+var test = myNum(5);
+console.log(test);
+```
+
+실행 결과
+
+```jsx
+5은(는) 10보다 작습니다.
+```
